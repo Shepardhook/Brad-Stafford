@@ -7,6 +7,41 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
+Key Findings:
+1. Low Mileage: Vehicles with lower mileage are more desirable. The majority of vehicles have odometer readings less than 100,000 miles.
+2. Good Condition: The condition of vehicles varies, with many being in 'good' or 'excellent' condition.
+3. Popular Brands: The top car manufacturers include Ford, Chevrolet, Toyota, Honda, and Nissan.
+4. Recent Model Years: A significant number of vehicles are from recent model years (2010 onwards).
+5. Fuel Efficiency: Gasoline is the most common fuel type, followed by diesel and hybrid.
+6. Vehicle History Report: Many vehicles have a clean title status, indicating no major issues.
+7. Certified Pre-Owned: A portion of the vehicles are certified pre-owned, adding to their appeal.
+
+Overview of the Dataset
+Data Loading:
+
+The dataset vehicles.csv is loaded into a pandas DataFrame named vehicles_data.
+Data Inspection:
+
+The first few rows of the dataset are displayed to get an initial look at the data.
+Basic information about the dataset is printed, including the number of entries, column names, and data types.
+Summary statistics of the dataset are shown to understand the distribution and central tendencies of the numerical columns.
+Data Cleaning and Preparation:
+
+Missing values are handled by dropping rows with missing data in key columns such as price, year, manufacturer, etc.
+Data types of relevant columns are converted to ensure consistency.
+Feature Engineering:
+
+A new feature certified_pre_owned is created to indicate whether the vehicle has a clean title status.
+Exploratory Data Analysis (EDA):
+
+Several visualizations are generated to explore the key features that influence car prices:
+Odometer Readings: Distribution of mileage.
+Condition of the Cars: Count of cars in different conditions.
+Top 10 Car Manufacturers: Count of cars from the most popular manufacturers.
+Model Years: Distribution of car model years.
+Fuel Types: Count of cars with different fuel types.
+Title Status: Count of cars with different title statuses.
+Certified Pre-Owned Status: Count of cars that are certified pre-owned.
 
 
 
